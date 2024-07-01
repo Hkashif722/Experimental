@@ -7,14 +7,19 @@
 
 import UIKit
 
-class tableHeader: UIView {
+final class tableHeader: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBOutlet weak var ImageView: UIImageView!
+    override init(frame: CGRect) {
+        super.init(frame: frame)
     }
-    */
-
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
+    private func configureView() {
+        guard let view = self.loadViewFromNib(nibName: "tableHeader") else {return}
+        view.frame = self.bounds
+        self.addSubview(view)
+    }
 }

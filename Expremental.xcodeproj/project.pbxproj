@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4024442BCEEC1900754D00 /* VC10.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4024432BCEEC1900754D00 /* VC10.swift */; };
+		AEA00CC62C2FC36A00ED2046 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00CC52C2FC36A00ED2046 /* PreviewProvider.swift */; };
+		AEA00CC82C2FC5E700ED2046 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00CC72C2FC5E700ED2046 /* PopupView.swift */; };
+		AEA00CCB2C2FF60300ED2046 /* CustomCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA00CCA2C2FF60300ED2046 /* CustomCardView.swift */; };
+		AEB603232BD398C1003761B4 /* HierarchicalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB603222BD398C1003761B4 /* HierarchicalTableViewController.swift */; };
+		AEB603252BD50CE6003761B4 /* v11.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB603242BD50CE6003761B4 /* v11.swift */; };
 		AEBB4B8C2BBC6C41006D383A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4B8B2BBC6C41006D383A /* AppDelegate.swift */; };
 		AEBB4B8E2BBC6C41006D383A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4B8D2BBC6C41006D383A /* SceneDelegate.swift */; };
 		AEBB4B902BBC6C41006D383A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4B8F2BBC6C41006D383A /* ViewController.swift */; };
@@ -17,6 +23,12 @@
 		AEBB4BA62BBC6C43006D383A /* ExprementalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4BA52BBC6C43006D383A /* ExprementalTests.swift */; };
 		AEBB4BB02BBC6C43006D383A /* ExprementalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4BAF2BBC6C43006D383A /* ExprementalUITests.swift */; };
 		AEBB4BB22BBC6C43006D383A /* ExprementalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4BB12BBC6C43006D383A /* ExprementalUITestsLaunchTests.swift */; };
+		AEBB4BBF2BBD0822006D383A /* StretchyHeaderTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4BBE2BBD0822006D383A /* StretchyHeaderTable.swift */; };
+		AEBB4BC72BBDDDFC006D383A /* tableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4BC62BBDDDFC006D383A /* tableHeader.swift */; };
+		AEBB4BCA2BBDDEAC006D383A /* tableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBB4BC92BBDDEAC006D383A /* tableHeader.xib */; };
+		AEBB4BCC2BBDDF4E006D383A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4BCB2BBDDF4E006D383A /* UIViewExtension.swift */; };
+		AEBB4BCF2BBDE42B006D383A /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = AEBB4BCE2BBDE42B006D383A /* TinyConstraints */; };
+		AEC7AE0D2C2F69F20024EED9 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7AE0C2C2F69F20024EED9 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE4024432BCEEC1900754D00 /* VC10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC10.swift; sourceTree = "<group>"; };
+		AEA00CC52C2FC36A00ED2046 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		AEA00CC72C2FC5E700ED2046 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		AEA00CCA2C2FF60300ED2046 /* CustomCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCardView.swift; sourceTree = "<group>"; };
+		AEB603222BD398C1003761B4 /* HierarchicalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalTableViewController.swift; sourceTree = "<group>"; };
+		AEB603242BD50CE6003761B4 /* v11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v11.swift; sourceTree = "<group>"; };
 		AEBB4B882BBC6C41006D383A /* Expremental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expremental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBB4B8B2BBC6C41006D383A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEBB4B8D2BBC6C41006D383A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +69,11 @@
 		AEBB4BAB2BBC6C43006D383A /* ExprementalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExprementalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBB4BAF2BBC6C43006D383A /* ExprementalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExprementalUITests.swift; sourceTree = "<group>"; };
 		AEBB4BB12BBC6C43006D383A /* ExprementalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExprementalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEBB4BBE2BBD0822006D383A /* StretchyHeaderTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderTable.swift; sourceTree = "<group>"; };
+		AEBB4BC62BBDDDFC006D383A /* tableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableHeader.swift; sourceTree = "<group>"; };
+		AEBB4BC92BBDDEAC006D383A /* tableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableHeader.xib; sourceTree = "<group>"; };
+		AEBB4BCB2BBDDF4E006D383A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		AEC7AE0C2C2F69F20024EED9 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBB4BCF2BBDE42B006D383A /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4024422BCEEC0A00754D00 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				AE4024432BCEEC1900754D00 /* VC10.swift */,
+				AEB603222BD398C1003761B4 /* HierarchicalTableViewController.swift */,
+				AEB603242BD50CE6003761B4 /* v11.swift */,
+				AEC7AE0C2C2F69F20024EED9 /* CardViewController.swift */,
+				AEA00CC72C2FC5E700ED2046 /* PopupView.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		AEA00CC92C2FF5E100ED2046 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				AEA00CCA2C2FF60300ED2046 /* CustomCardView.swift */,
+			);
+			name = customViews;
+			path = "New Group1/customViews";
+			sourceTree = "<group>";
+		};
 		AEBB4B7F2BBC6C41006D383A = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +146,22 @@
 		AEBB4B8A2BBC6C41006D383A /* Expremental */ = {
 			isa = PBXGroup;
 			children = (
+				AEBB4BC82BBDDE18006D383A /* New Group */,
 				AEBB4B8B2BBC6C41006D383A /* AppDelegate.swift */,
 				AEBB4B8D2BBC6C41006D383A /* SceneDelegate.swift */,
 				AEBB4B8F2BBC6C41006D383A /* ViewController.swift */,
+				AE4024422BCEEC0A00754D00 /* New Group1 */,
+				AEBB4BBE2BBD0822006D383A /* StretchyHeaderTable.swift */,
+				AEA00CC92C2FF5E100ED2046 /* customViews */,
 				AEBB4B912BBC6C41006D383A /* Main.storyboard */,
 				AEBB4B972BBC6C43006D383A /* Assets.xcassets */,
 				AEBB4B992BBC6C43006D383A /* LaunchScreen.storyboard */,
 				AEBB4B9C2BBC6C43006D383A /* Info.plist */,
 				AEBB4B942BBC6C41006D383A /* Expremental.xcdatamodeld */,
+				AEBB4BC62BBDDDFC006D383A /* tableHeader.swift */,
+				AEBB4BCB2BBDDF4E006D383A /* UIViewExtension.swift */,
+				AEBB4BC92BBDDEAC006D383A /* tableHeader.xib */,
+				AEA00CC52C2FC36A00ED2046 /* PreviewProvider.swift */,
 			);
 			path = Expremental;
 			sourceTree = "<group>";
@@ -130,6 +183,13 @@
 			path = ExprementalUITests;
 			sourceTree = "<group>";
 		};
+		AEBB4BC82BBDDE18006D383A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +206,9 @@
 			dependencies = (
 			);
 			name = Expremental;
+			packageProductDependencies = (
+				AEBB4BCE2BBDE42B006D383A /* TinyConstraints */,
+			);
 			productName = Expremental;
 			productReference = AEBB4B882BBC6C41006D383A /* Expremental.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +281,9 @@
 				Base,
 			);
 			mainGroup = AEBB4B7F2BBC6C41006D383A;
+			packageReferences = (
+				AEBB4BCD2BBDE42B006D383A /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
 			productRefGroup = AEBB4B892BBC6C41006D383A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBB4B9B2BBC6C43006D383A /* LaunchScreen.storyboard in Resources */,
+				AEBB4BCA2BBDDEAC006D383A /* tableHeader.xib in Resources */,
 				AEBB4B982BBC6C43006D383A /* Assets.xcassets in Resources */,
 				AEBB4B932BBC6C41006D383A /* Main.storyboard in Resources */,
 			);
@@ -261,10 +328,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB603252BD50CE6003761B4 /* v11.swift in Sources */,
 				AEBB4B902BBC6C41006D383A /* ViewController.swift in Sources */,
 				AEBB4B962BBC6C41006D383A /* Expremental.xcdatamodeld in Sources */,
+				AEA00CCB2C2FF60300ED2046 /* CustomCardView.swift in Sources */,
+				AEBB4BBF2BBD0822006D383A /* StretchyHeaderTable.swift in Sources */,
+				AEB603232BD398C1003761B4 /* HierarchicalTableViewController.swift in Sources */,
+				AEBB4BC72BBDDDFC006D383A /* tableHeader.swift in Sources */,
 				AEBB4B8C2BBC6C41006D383A /* AppDelegate.swift in Sources */,
+				AEBB4BCC2BBDDF4E006D383A /* UIViewExtension.swift in Sources */,
+				AEC7AE0D2C2F69F20024EED9 /* CardViewController.swift in Sources */,
+				AEA00CC62C2FC36A00ED2046 /* PreviewProvider.swift in Sources */,
 				AEBB4B8E2BBC6C41006D383A /* SceneDelegate.swift in Sources */,
+				AE4024442BCEEC1900754D00 /* VC10.swift in Sources */,
+				AEA00CC82C2FC5E700ED2046 /* PopupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +688,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEBB4BCD2BBDE42B006D383A /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEBB4BCE2BBDE42B006D383A /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEBB4BCD2BBDE42B006D383A /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AEBB4B942BBC6C41006D383A /* Expremental.xcdatamodeld */ = {
