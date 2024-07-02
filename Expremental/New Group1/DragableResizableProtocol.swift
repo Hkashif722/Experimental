@@ -168,8 +168,8 @@ class CameraCaptureHandler: NSObject, AVCapturePhotoCaptureDelegate, AVCaptureFi
                 view?.layer.addSublayer(previewLayer)
                 previewLayer.frame = view?.bounds ?? .zero
             }
-            DispatchQueue.global(qos: .background).async {
-                self.captureSession?.startRunning()
+            DispatchQueue.global(qos: .background).async { [weak self] in
+                self?.captureSession?.startRunning()
             }
         } catch {
             print(error)

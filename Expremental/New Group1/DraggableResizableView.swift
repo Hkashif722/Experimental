@@ -53,7 +53,9 @@ class ViewController111: UIViewController {
         
         let customView = CustomView(frame: CGRect(x: customViewX, y: customViewY, width: customViewWidth, height: customViewHeight))
         self.view.addSubview(customView)
-        customView.triggerPhotoCapture()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5){
+            customView.triggerPhotoCapture()
+        }
     }
 }
 
