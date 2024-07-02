@@ -28,6 +28,8 @@
 		AEBB4BCA2BBDDEAC006D383A /* tableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBB4BC92BBDDEAC006D383A /* tableHeader.xib */; };
 		AEBB4BCC2BBDDF4E006D383A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB4BCB2BBDDF4E006D383A /* UIViewExtension.swift */; };
 		AEBB4BCF2BBDE42B006D383A /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = AEBB4BCE2BBDE42B006D383A /* TinyConstraints */; };
+		AEBCAA242C330FD50083557C /* DraggableResizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBCAA232C330FD50083557C /* DraggableResizableView.swift */; };
+		AEBCAA262C3312F80083557C /* DragableResizableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBCAA252C3312F80083557C /* DragableResizableProtocol.swift */; };
 		AEC7AE0D2C2F69F20024EED9 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC7AE0C2C2F69F20024EED9 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,8 @@
 		AEBB4BC62BBDDDFC006D383A /* tableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableHeader.swift; sourceTree = "<group>"; };
 		AEBB4BC92BBDDEAC006D383A /* tableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableHeader.xib; sourceTree = "<group>"; };
 		AEBB4BCB2BBDDF4E006D383A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		AEBCAA232C330FD50083557C /* DraggableResizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableResizableView.swift; sourceTree = "<group>"; };
+		AEBCAA252C3312F80083557C /* DragableResizableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragableResizableProtocol.swift; sourceTree = "<group>"; };
 		AEC7AE0C2C2F69F20024EED9 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +114,8 @@
 				AEB603242BD50CE6003761B4 /* v11.swift */,
 				AEC7AE0C2C2F69F20024EED9 /* CardViewController.swift */,
 				AEA00CC72C2FC5E700ED2046 /* PopupView.swift */,
+				AEBCAA232C330FD50083557C /* DraggableResizableView.swift */,
+				AEBCAA252C3312F80083557C /* DragableResizableProtocol.swift */,
 			);
 			path = "New Group1";
 			sourceTree = "<group>";
@@ -335,6 +341,7 @@
 				AEBB4BBF2BBD0822006D383A /* StretchyHeaderTable.swift in Sources */,
 				AEB603232BD398C1003761B4 /* HierarchicalTableViewController.swift in Sources */,
 				AEBB4BC72BBDDDFC006D383A /* tableHeader.swift in Sources */,
+				AEBCAA242C330FD50083557C /* DraggableResizableView.swift in Sources */,
 				AEBB4B8C2BBC6C41006D383A /* AppDelegate.swift in Sources */,
 				AEBB4BCC2BBDDF4E006D383A /* UIViewExtension.swift in Sources */,
 				AEC7AE0D2C2F69F20024EED9 /* CardViewController.swift in Sources */,
@@ -342,6 +349,7 @@
 				AEBB4B8E2BBC6C41006D383A /* SceneDelegate.swift in Sources */,
 				AE4024442BCEEC1900754D00 /* VC10.swift in Sources */,
 				AEA00CC82C2FC5E700ED2046 /* PopupView.swift in Sources */,
+				AEBCAA262C3312F80083557C /* DragableResizableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
